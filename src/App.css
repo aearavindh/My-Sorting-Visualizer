@@ -26,6 +26,10 @@
   outline: none;
 }
 
+.app_header > button:disabled {
+  background-color: gray;
+}
+
 .app_header > button:hover {
   height: 60%;
 }
@@ -33,7 +37,7 @@
 .app_body {
   background-color: rgb(216, 145, 145);
   flex: 1;
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: center;
   border-radius: 10px;
@@ -44,4 +48,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.app_footer > h3 {
+  color: gray;
 }
