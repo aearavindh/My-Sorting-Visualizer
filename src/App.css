@@ -1,0 +1,47 @@
+* {
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: brown;
+}
+
+.app_header {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app_header > button {
+  height: 50%;
+  width: auto;
+  background-color: rgb(189, 148, 148);
+  margin: 10px;
+  border-radius: 10px;
+  border-color: rgb(189, 148, 148);
+  outline: none;
+}
+
+.app_header > button:hover {
+  height: 60%;
+}
+
+.app_body {
+  background-color: rgb(216, 145, 145);
+  flex: 1;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.app_footer {
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
