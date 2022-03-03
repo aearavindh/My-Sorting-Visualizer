@@ -45,6 +45,12 @@
   overflow: auto;
 }
 
+.app_body--placeholder {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px gray;
+}
+
 .app_footer {
   height: 5%;
   display: flex;
