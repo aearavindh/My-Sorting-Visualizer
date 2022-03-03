@@ -1,6 +1,7 @@
 .line{
-    width: 20px;
-    margin: 2px;
+    width: 3vh;
+    margin: 1px;
     text-align: center;
-    color: rgb(212, 92, 92);
+    font-size: 2vh;
+    color: white;
 }
